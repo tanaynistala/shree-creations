@@ -22,7 +22,7 @@ export default function Education() {
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-y-8 lg:gap-x-16 lg:items-center">
               <div class="max-w-lg mx-auto text-center lg:text-left lg:mx-0">
                 <h2 class="text-3xl font-bold sm:text-4xl">
-                  Learn more about diamonds
+                  The 4 C's of Diamonds
                 </h2>
 
                 <p class="mt-4 text-gray-600">
@@ -32,11 +32,11 @@ export default function Education() {
                   aliquid tempora. Obcaecati, autem.
                 </p>
 
-                <a
+                {/* <a
                   class="inline-flex items-center px-8 py-3 mt-8 text-white bg-indigo-600 border border-indigo-600 rounded hover:bg-transparent hover:text-indigo-600 active:text-indigo-500 focus:outline-none focus:ring"
                   href="/get-started"
                 >
-                  <span class="text-sm font-medium"> Learn More </span>
+                  <span class="text-sm font-medium"> Get Started </span>
 
                   <svg
                     class="w-5 h-5 ml-3"
@@ -46,194 +46,296 @@ export default function Education() {
                     stroke="currentColor"
                   >
                     <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
                       d="M17 8l4 4m0 0l-4 4m4-4H3"
                     />
                   </svg>
-                </a>
+                </a> */}
               </div>
 
-              <div class="grid grid-cols-2 gap-4 sm:grid-cols-3">
+              <div class="grid grid-cols-2 gap-4 sm:grid-cols-2">
                 <a
-                  class="block p-4 border border-gray-100 shadow-sm rounded-xl focus:outline-none focus:ring hover:border-gray-200 hover:ring-1 hover:ring-gray-200"
                   href=""
+                  class="relative block p-8 pb-24 border-t-4 border-pink-600 rounded-sm shadow-xl"
                 >
-                  <span class="inline-block p-3 rounded-lg bg-gray-50">
+                  <h5 class="text-4xl font-bold">Cut</h5>
+                  <p class="mt-4 text-lg font-medium text-gray-500">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repudiandae, provident.
+                  </p>
+
+                  <span class="absolute bottom-8 right-8">
                     <svg
-                      class="w-6 h-6"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg"
+                      class="w-10 h-10 text-pink-600"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
                     >
-                      <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
-                      <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path>
                       <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                      ></path>
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M13 10V3L4 14h7v7l9-11h-7z"
+                      />
                     </svg>
                   </span>
-
-                  <h6 class="mt-2 font-bold">Section</h6>
-
-                  <p class="hidden sm:mt-1 sm:text-sm sm:text-gray-600 sm:block">
-                    Lorem ipsum dolor sit amet consectetur.
-                  </p>
                 </a>
 
                 <a
-                  class="block p-4 border border-gray-100 shadow-sm rounded-xl focus:outline-none focus:ring hover:border-gray-200 hover:ring-1 hover:ring-gray-200"
                   href=""
+                  class="relative block p-8 pb-24 border-t-4 border-pink-600 rounded-sm shadow-xl"
                 >
-                  <span class="inline-block p-3 rounded-lg bg-gray-50">
+                  <h5 class="text-4xl font-bold">Color</h5>
+                  <p class="mt-4 text-lg font-medium text-gray-500">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repudiandae, provident.
+                  </p>
+
+                  <span class="absolute bottom-8 right-8">
                     <svg
-                      class="w-6 h-6"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg"
+                      class="w-10 h-10 text-pink-600"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
                     >
-                      <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
-                      <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path>
                       <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                      ></path>
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M13 10V3L4 14h7v7l9-11h-7z"
+                      />
                     </svg>
                   </span>
-
-                  <h6 class="mt-2 font-bold">Section</h6>
-
-                  <p class="hidden sm:mt-1 sm:text-sm sm:text-gray-600 sm:block">
-                    Lorem ipsum dolor sit amet consectetur.
-                  </p>
                 </a>
 
                 <a
-                  class="block p-4 border border-gray-100 shadow-sm rounded-xl focus:outline-none focus:ring hover:border-gray-200 hover:ring-1 hover:ring-gray-200"
                   href=""
+                  class="relative block p-8 pb-24 border-t-4 border-pink-600 rounded-sm shadow-xl"
                 >
-                  <span class="inline-block p-3 rounded-lg bg-gray-50">
+                  <h5 class="text-4xl font-bold">Clarity</h5>
+                  <p class="mt-4 text-lg font-medium text-gray-500">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repudiandae, provident.
+                  </p>
+
+                  <span class="absolute bottom-8 right-8">
                     <svg
-                      class="w-6 h-6"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg"
+                      class="w-10 h-10 text-pink-600"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
                     >
-                      <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
-                      <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path>
                       <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                      ></path>
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M13 10V3L4 14h7v7l9-11h-7z"
+                      />
                     </svg>
                   </span>
-
-                  <h6 class="mt-2 font-bold">Section</h6>
-
-                  <p class="hidden sm:mt-1 sm:text-sm sm:text-gray-600 sm:block">
-                    Lorem ipsum dolor sit amet consectetur.
-                  </p>
                 </a>
 
                 <a
-                  class="block p-4 border border-gray-100 shadow-sm rounded-xl focus:outline-none focus:ring hover:border-gray-200 hover:ring-1 hover:ring-gray-200"
                   href=""
+                  class="relative block p-8 pb-24 border-t-4 border-pink-600 rounded-sm shadow-xl"
                 >
-                  <span class="inline-block p-3 rounded-lg bg-gray-50">
+                  <h5 class="text-4xl font-bold">Carat</h5>
+                  <p class="mt-4 text-lg font-medium text-gray-500">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repudiandae, provident.
+                  </p>
+
+                  <span class="absolute bottom-8 right-8">
                     <svg
-                      class="w-6 h-6"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg"
+                      class="w-10 h-10 text-pink-600"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
                     >
-                      <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
-                      <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path>
                       <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                      ></path>
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M13 10V3L4 14h7v7l9-11h-7z"
+                      />
                     </svg>
                   </span>
-
-                  <h6 class="mt-2 font-bold">Section</h6>
-
-                  <p class="hidden sm:mt-1 sm:text-sm sm:text-gray-600 sm:block">
-                    Lorem ipsum dolor sit amet consectetur.
-                  </p>
                 </a>
 
-                <a
-                  class="block p-4 border border-gray-100 shadow-sm rounded-xl focus:outline-none focus:ring hover:border-gray-200 hover:ring-1 hover:ring-gray-200"
-                  href=""
-                >
-                  <span class="inline-block p-3 rounded-lg bg-gray-50">
-                    <svg
-                      class="w-6 h-6"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
-                      <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path>
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                      ></path>
-                    </svg>
-                  </span>
+                <a href="" class="relative block group h-72">
+                  <span class="absolute inset-0 border-2 border-black border-dashed"></span>
 
-                  <h6 class="mt-2 font-bold">Section</h6>
+                  <div class="relative flex items-end h-full transition-transform transform bg-white border-2 border-black group-hover:-translate-x-2 group-hover:-translate-y-2">
+                    <div class="px-8 pb-8 transition-opacity group-hover:opacity-0 group-hover:absolute">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="w-12 h-12"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
+                      </svg>
 
-                  <p class="hidden sm:mt-1 sm:text-sm sm:text-gray-600 sm:block">
-                    Lorem ipsum dolor sit amet consectetur.
-                  </p>
+                      <h2 class="mt-4 text-2xl font-medium">Cut</h2>
+                    </div>
+
+                    <div class="absolute p-8 transition-opacity opacity-0 group-hover:opacity-100 group-hover:relative w-full">
+                      <h2 class="mt-4 text-2xl font-medium">Cut</h2>
+
+                      <p class="mt-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Cupiditate, praesentium voluptatem omnis atque culpa
+                        repellendus.
+                      </p>
+
+                      <p class="mt-8 font-bold">Read more</p>
+                    </div>
+                  </div>
                 </a>
 
-                <a
-                  class="block p-4 border border-gray-100 shadow-sm rounded-xl focus:outline-none focus:ring hover:border-gray-200 hover:ring-1 hover:ring-gray-200"
-                  href=""
-                >
-                  <span class="inline-block p-3 rounded-lg bg-gray-50">
-                    <svg
-                      class="w-6 h-6"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
-                      <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path>
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                      ></path>
-                    </svg>
-                  </span>
+                <a href="" class="relative block group h-72">
+                  <span class="absolute inset-0 border-2 border-black border-dashed"></span>
 
-                  <h6 class="mt-2 font-bold">Section</h6>
+                  <div class="relative flex items-end h-full transition-transform transform bg-white border-2 border-black group-hover:-translate-x-2 group-hover:-translate-y-2">
+                    <div class="px-8 pb-8 transition-opacity group-hover:opacity-0 group-hover:absolute">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-12 w-12"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        stroke-width="2"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"
+                        />
+                      </svg>
 
-                  <p class="hidden sm:mt-1 sm:text-sm sm:text-gray-600 sm:block">
-                    Lorem ipsum dolor sit amet consectetur.
-                  </p>
+                      <h2 class="mt-4 text-2xl font-medium">Color</h2>
+                    </div>
+
+                    <div class="absolute p-8 transition-opacity opacity-0 group-hover:opacity-100 group-hover:relative w-full">
+                      <h2 class="mt-4 text-2xl font-medium">Color</h2>
+
+                      <p class="mt-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Cupiditate, praesentium voluptatem omnis atque culpa
+                        repellendus.
+                      </p>
+
+                      <p class="mt-8 font-bold">Read more</p>
+                    </div>
+                  </div>
+                </a>
+
+                <a href="" class="relative block group h-72">
+                  <span class="absolute inset-0 border-2 border-black border-dashed"></span>
+
+                  <div class="relative flex items-end h-full transition-transform transform bg-white border-2 border-black group-hover:-translate-x-2 group-hover:-translate-y-2">
+                    <div class="px-8 pb-8 transition-opacity group-hover:opacity-0 group-hover:absolute">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-12 w-12"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        stroke-width="2"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+                        />
+                      </svg>
+
+                      <h2 class="mt-4 text-2xl font-medium">Clarity</h2>
+                    </div>
+
+                    <div class="absolute p-8 transition-opacity opacity-0 group-hover:opacity-100 group-hover:relative w-full">
+                      <h2 class="mt-4 text-2xl font-medium">Clarity</h2>
+
+                      <p class="mt-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Cupiditate, praesentium voluptatem omnis atque culpa
+                        repellendus.
+                      </p>
+
+                      <p class="mt-8 font-bold">Read more</p>
+                    </div>
+                  </div>
+                </a>
+
+                <a href="" class="relative block group h-72">
+                  <span class="absolute inset-0 border-2 border-black border-dashed"></span>
+
+                  <div class="relative flex items-end h-full transition-transform transform bg-white border-2 border-black group-hover:-translate-x-2 group-hover:-translate-y-2">
+                    <div class="px-8 pb-8 transition-opacity group-hover:opacity-0 group-hover:absolute">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="48"
+                        height="48"
+                        fill="#000000"
+                        viewBox="0 0 256 256"
+                      >
+                        <rect width="256" height="256" fill="none"></rect>
+                        <polygon
+                          points="72 40 184 40 240 104 128 224 16 104 72 40"
+                          fill="none"
+                          stroke="#000000"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="24"
+                        ></polygon>
+                        <polygon
+                          points="177.1 104 128 224 78.9 104 128 40 177.1 104"
+                          fill="none"
+                          stroke="#000000"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="24"
+                        ></polygon>
+                        <line
+                          x1="16"
+                          y1="104"
+                          x2="240"
+                          y2="104"
+                          fill="none"
+                          stroke="#000000"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="24"
+                        ></line>
+                      </svg>
+
+                      <h2 class="mt-4 text-2xl font-medium">Carat</h2>
+                    </div>
+
+                    <div class="absolute p-8 transition-opacity opacity-0 group-hover:opacity-100 group-hover:relative w-full">
+                      <h2 class="mt-4 text-2xl font-medium">Carat</h2>
+
+                      <p class="mt-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Cupiditate, praesentium voluptatem omnis atque culpa
+                        repellendus.
+                      </p>
+
+                      <p class="mt-8 font-bold">Read more</p>
+                    </div>
+                  </div>
                 </a>
               </div>
             </div>
