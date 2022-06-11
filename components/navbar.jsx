@@ -12,43 +12,43 @@ export default function Navbar() {
 
       <ul className="flex items-center space-x-2 text-sm font-medium text-black mix-blend-overlay">
         <li className="hidden lg:block">
-          <a
+          <Link
             className="px-3 py-2 rounded-lg hover:bg-slate-50 hover:bg-opacity-50"
             href="/#"
           >
             {" "}
             Home{" "}
-          </a>
+          </Link>
         </li>
 
         <li>
-          <a
+          <Link
             className="px-3 py-2 rounded-lg hover:bg-slate-50 hover:bg-opacity-50"
-            href="/#about"
+            href="/about"
           >
             {" "}
             About{" "}
-          </a>
+          </Link>
         </li>
 
         <li>
-          <a
+          <Link
             className="px-3 py-2 rounded-lg hover:bg-slate-50 hover:bg-opacity-50"
             href="/education"
           >
             {" "}
             Education{" "}
-          </a>
+          </Link>
         </li>
 
         <li>
-          <a
+          <Link
             className="px-3 py-2 rounded-lg hover:bg-slate-50 hover:bg-opacity-50"
-            href="/#contact"
+            href="/contact"
           >
             {" "}
             Contact{" "}
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>

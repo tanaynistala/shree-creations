@@ -22,7 +22,7 @@ export default function Education() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-8 lg:gap-x-16 lg:items-center">
               <div className="max-w-lg mx-auto text-center lg:text-left lg:mx-0">
                 <h2 className="text-3xl font-bold sm:text-4xl">
-                  The 4 C's of Diamonds
+                  The 4 C&apos;s of Diamonds
                 </h2>
 
                 <p className="mt-4 text-gray-600">
@@ -48,7 +48,7 @@ export default function Education() {
                     <path
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      stroke-width="2"
+                      strokeWidth="2"
                       d="M17 8l4 4m0 0l-4 4m4-4H3"
                     />
                   </svg>
@@ -77,7 +77,7 @@ export default function Education() {
                       <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        stroke-width="2"
+                        strokeWidth="2"
                         d="M13 10V3L4 14h7v7l9-11h-7z"
                       />
                     </svg>
@@ -105,7 +105,7 @@ export default function Education() {
                       <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        stroke-width="2"
+                        strokeWidth="2"
                         d="M13 10V3L4 14h7v7l9-11h-7z"
                       />
                     </svg>
@@ -133,7 +133,7 @@ export default function Education() {
                       <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        stroke-width="2"
+                        strokeWidth="2"
                         d="M13 10V3L4 14h7v7l9-11h-7z"
                       />
                     </svg>
@@ -161,7 +161,7 @@ export default function Education() {
                       <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        stroke-width="2"
+                        strokeWidth="2"
                         d="M13 10V3L4 14h7v7l9-11h-7z"
                       />
                     </svg>
@@ -183,7 +183,7 @@ export default function Education() {
                         <path
                           strokeLinecap="round"
                           strokeLinejoin="round"
-                          stroke-width="2"
+                          strokeWidth="2"
                           d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                         />
                       </svg>
@@ -216,7 +216,7 @@ export default function Education() {
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
-                        stroke-width="2"
+                        strokeWidth="2"
                       >
                         <path
                           strokeLinecap="round"
@@ -253,7 +253,7 @@ export default function Education() {
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
-                        stroke-width="2"
+                        strokeWidth="2"
                       >
                         <path
                           strokeLinecap="round"
@@ -298,7 +298,7 @@ export default function Education() {
                           stroke="#000000"
                           strokeLinecap="round"
                           strokeLinejoin="round"
-                          stroke-width="24"
+                          strokeWidth="24"
                         ></polygon>
                         <polygon
                           points="177.1 104 128 224 78.9 104 128 40 177.1 104"
@@ -306,7 +306,7 @@ export default function Education() {
                           stroke="#000000"
                           strokeLinecap="round"
                           strokeLinejoin="round"
-                          stroke-width="24"
+                          strokeWidth="24"
                         ></polygon>
                         <line
                           x1="16"
@@ -317,7 +317,7 @@ export default function Education() {
                           stroke="#000000"
                           strokeLinecap="round"
                           strokeLinejoin="round"
-                          stroke-width="24"
+                          strokeWidth="24"
                         ></line>
                       </svg>
 

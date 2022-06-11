@@ -35,7 +35,7 @@ export default function Education() {
 
             <div className="grid grid-cols-1 gap-8 mt-8 lg:gap-16 lg:grid-cols-2">
               <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
-                <img
+                <Image
                   className="absolute inset-0 object-cover w-full h-full"
                   src="https://www.hyperui.dev/photos/man-1.jpeg"
                   alt="Man using a computer"
@@ -72,7 +72,9 @@ export default function Education() {
             <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
               <div className="lg:py-12 lg:col-span-2">
                 <div className="max-w-3xl pb-4">
-                  <h2 className="text-3xl font-bold sm:text-4xl">Get in touch</h2>
+                  <h2 className="text-3xl font-bold sm:text-4xl">
+                    Get in touch
+                  </h2>
                 </div>
                 <p className="max-w-xl text-lg">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
@@ -214,7 +216,7 @@ export default function Education() {
                         <path
                           strokeLinecap="round"
                           strokeLinejoin="round"
-                          stroke-width="2"
+                          strokeWidth="2"
                           d="M14 5l7 7m0 0l-7 7m7-7H3"
                         />
                       </svg>

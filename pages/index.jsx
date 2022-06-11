@@ -26,7 +26,10 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 h-64 md:h-48">
-            <a href="#about" className="group xl:col-span-2 my-auto ml-8 md:ml-16">
+            <a
+              href="#about"
+              className="group xl:col-span-2 my-auto ml-8 md:ml-16"
+            >
               <h3 className="text-2xl text-leading font-light title-font text-black transition group-hover:opacity-80 ease-in-out">
                 Another Section
               </h3>
@@ -58,7 +61,7 @@ export default function Home() {
           <div className="w-full p-8 text-left lg:w-1/2 md:p-16 lg:p-16 my-auto">
             <div className="max-w-xl lg:ml-0">
               <p className="mt-2 text-2xl font-bold text-white sm:text-3xl">
-                We're a ...
+                We&apos;re a ...
               </p>
 
               <p className="mt-4 block">
@@ -81,7 +84,7 @@ export default function Home() {
           </div>
 
           <div className="relative w-full h-64 md:h-96 lg:w-1/2 lg:h-auto">
-            <img
+            <Image
               src="https://images.unsplash.com/photo-1624456735729-03594a40c5fb"
               alt="Women smiling at college"
               className="absolute inset-0 object-cover w-full h-full md:px-16 md:py-16"
@@ -95,7 +98,7 @@ export default function Home() {
             <div className="grid grid-cols-1 lg:grid-cols-2 lg:min-h-[50vh]">
               <div className="hidden md:block relative z-10 lg:py-16">
                 <div className="relative h-64 sm:h-80 lg:h-full">
-                  <img
+                  <Image
                     className="absolute inset-0 object-cover w-full h-full"
                     src="https://www.hyperui.dev/photos/house-1.jpeg"
                     alt="Indoors house"
@@ -120,7 +123,7 @@ export default function Home() {
                   </p>
 
                   <div className="grid grid-cols-2 gap-4 xl:grid-cols-3 mt-8">
-                    <a
+                    <Link
                       className="flex items-start p-4 group"
                       href="/education/shape"
                     >
@@ -131,7 +134,7 @@ export default function Home() {
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
-                          stroke-width="2"
+                          strokeWidth="2"
                         >
                           <path
                             strokeLinecap="round"
@@ -153,7 +156,7 @@ export default function Home() {
                           Lorem ipsum dolor sit amet consectetur.
                         </p>
                       </div>
-                    </a>
+                    </Link>
 
                     <a
                       className="flex items-start p-4 group"
@@ -166,7 +169,7 @@ export default function Home() {
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
-                          stroke-width="2"
+                          strokeWidth="2"
                         >
                           <path
                             strokeLinecap="round"
@@ -201,7 +204,7 @@ export default function Home() {
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
-                          stroke-width="2"
+                          strokeWidth="2"
                         >
                           <path
                             strokeLinecap="round"
@@ -225,7 +228,10 @@ export default function Home() {
                       </div>
                     </a>
 
-                    <a className="flex items-start p-4 group" href="/education/cut">
+                    <a
+                      className="flex items-start p-4 group"
+                      href="/education/cut"
+                    >
                       <span className="inline-block p-3 rounded-lg bg-slate-50 transition shadow-sm group-hover:bg-slate-100">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -233,7 +239,7 @@ export default function Home() {
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
-                          stroke-width="2"
+                          strokeWidth="2"
                         >
                           <path
                             strokeLinecap="round"
@@ -268,7 +274,7 @@ export default function Home() {
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
-                          stroke-width="2"
+                          strokeWidth="2"
                         >
                           <path
                             strokeLinecap="round"
@@ -310,7 +316,10 @@ export default function Home() {
         </section>
 
         {/* Contact */}
-        <section id="contact" className="text-gray-600 body-font relative my-16">
+        <section
+          id="contact"
+          className="text-gray-600 body-font relative my-16"
+        >
           <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-col text-center w-full mb-12">
               <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
@@ -325,7 +334,10 @@ export default function Home() {
               <div className="flex flex-wrap -m-2">
                 <div className="p-2 w-full sm:w-1/2">
                   <div className="relative">
-                    <label htmlFor="name" className="leading-7 text-sm text-gray-600">
+                    <label
+                      htmlFor="name"
+                      className="leading-7 text-sm text-gray-600"
+                    >
                       Name
                     </label>
                     <input
@@ -339,7 +351,10 @@ export default function Home() {
                 </div>
                 <div className="p-2 w-full sm:w-1/2">
                   <div className="relative">
-                    <label htmlFor="email" className="leading-7 text-sm text-gray-600">
+                    <label
+                      htmlFor="email"
+                      className="leading-7 text-sm text-gray-600"
+                    >
                       Email
                     </label>
                     <input

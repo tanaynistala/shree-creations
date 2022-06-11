@@ -9,7 +9,7 @@ export default function Footer() {
           href="#"
         >
           <div className="">
-            <img
+            <Image
               className="absolute inset-0 object-cover w-full h-full transition group-hover:blur-sm group-hover:opacity-0"
               src="https://images.unsplash.com/photo-1624456735729-03594a40c5fb"
               alt="Comic Graphic"
@@ -22,7 +22,7 @@ export default function Footer() {
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
-              stroke-width="2"
+              strokeWidth="2"
             >
               <path
                 strokeLinecap="round"
@@ -53,7 +53,10 @@ export default function Footer() {
             <p className="font-medium">
               <span className="text-xs tracking-widest uppercase">Contact</span>
 
-              <a className="block text-2xl sm:text-3xl hover:opacity-75" href="">
+              <a
+                className="block text-2xl sm:text-3xl hover:opacity-75"
+                href=""
+              >
                 (212)&nbsp;869-2702 &middot; (212)&nbsp;840-8044
               </a>
             </p>
@@ -175,7 +178,10 @@ export default function Footer() {
             <p className="font-medium">
               <span className="text-xs tracking-widest uppercase">Address</span>
 
-              <a className="block text-2xl sm:text-3xl hover:opacity-75" href="">
+              <a
+                className="block text-2xl sm:text-3xl hover:opacity-75"
+                href=""
+              >
                 Shree Creations, Inc.
               </a>
             </p>
