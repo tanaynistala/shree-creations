@@ -35,7 +35,7 @@ export default function Education() {
 
             <div className="grid grid-cols-1 gap-8 mt-8 lg:gap-16 lg:grid-cols-2">
               <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
-                <Image
+                <img
                   className="absolute inset-0 object-cover w-full h-full"
                   src="https://www.hyperui.dev/photos/man-1.jpeg"
                   alt="Man using a computer"

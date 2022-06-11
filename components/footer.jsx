@@ -10,7 +10,7 @@ export default function Footer() {
           href="#"
         >
           <div className="">
-            <Image
+            <img
               className="absolute inset-0 object-cover w-full h-full transition group-hover:blur-sm group-hover:opacity-0"
               src="https://images.unsplash.com/photo-1624456735729-03594a40c5fb"
               alt="Comic Graphic"

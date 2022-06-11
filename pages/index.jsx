@@ -85,7 +85,7 @@ export default function Home() {
           </div>
 
           <div className="relative w-full h-64 md:h-96 lg:w-1/2 lg:h-auto">
-            <Image
+            <img
               src="https://images.unsplash.com/photo-1624456735729-03594a40c5fb"
               alt="Women smiling at college"
               className="absolute inset-0 object-cover w-full h-full md:px-16 md:py-16"
@@ -99,7 +99,7 @@ export default function Home() {
             <div className="grid grid-cols-1 lg:grid-cols-2 lg:min-h-[50vh]">
               <div className="hidden md:block relative z-10 lg:py-16">
                 <div className="relative h-64 sm:h-80 lg:h-full">
-                  <Image
+                  <img
                     className="absolute inset-0 object-cover w-full h-full"
                     src="https://www.hyperui.dev/photos/house-1.jpeg"
                     alt="Indoors house"
@@ -128,34 +128,36 @@ export default function Home() {
                       className="flex items-start p-4 group"
                       href="/education/shape"
                     >
-                      <span className="inline-block p-3 rounded-lg bg-slate-50 transition shadow-sm group-hover:bg-slate-100">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="h-6 w-6"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
-                          />
-                        </svg>
-                      </span>
+                      <div>
+                        <span className="inline-block p-3 rounded-lg bg-slate-50 transition shadow-sm group-hover:bg-slate-100">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-6 w-6"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
+                            />
+                          </svg>
+                        </span>
 
-                      <div className="ml-4">
-                        <h6 className="inline-block text-xl font-bold">
-                          Shape
-                          <span className="inline-block transition ease-in-out opacity-0 group-hover:opacity-100 group-hover:translate-x-2">
-                            &rarr;
-                          </span>
-                        </h6>
+                        <div className="ml-4">
+                          <h6 className="inline-block text-xl font-bold">
+                            Shape
+                            <span className="inline-block transition ease-in-out opacity-0 group-hover:opacity-100 group-hover:translate-x-2">
+                              &rarr;
+                            </span>
+                          </h6>
 
-                        <p className="hidden sm:mt-1 sm:text-sm sm:text-gray-600 sm:block">
-                          Lorem ipsum dolor sit amet consectetur.
-                        </p>
+                          <p className="hidden sm:mt-1 sm:text-sm sm:text-gray-600 sm:block">
+                            Lorem ipsum dolor sit amet consectetur.
+                          </p>
+                        </div>
                       </div>
                     </Link>
 
