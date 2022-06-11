@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
 import Navbar from "../components/navbar";
@@ -298,7 +299,10 @@ export default function Home() {
                       </div>
                     </a>
 
-                    <a className="flex items-start p-4 group" href="/education">
+                    <Link
+                      className="flex items-start p-4 group"
+                      href="/education"
+                    >
                       <div className="ml-4">
                         <h6 className="text-xl text-slate-500">
                           and more
@@ -307,7 +311,7 @@ export default function Home() {
                           </span>
                         </h6>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
