@@ -18,14 +18,14 @@ export default function Education() {
 
       <main className={styles.main}>
         <section>
-          <div class="max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-y-8 lg:gap-x-16 lg:items-center">
-              <div class="max-w-lg mx-auto text-center lg:text-left lg:mx-0">
-                <h2 class="text-3xl font-bold sm:text-4xl">
+          <div className="max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-8 lg:gap-x-16 lg:items-center">
+              <div className="max-w-lg mx-auto text-center lg:text-left lg:mx-0">
+                <h2 className="text-3xl font-bold sm:text-4xl">
                   The 4 C's of Diamonds
                 </h2>
 
-                <p class="mt-4 text-gray-600">
+                <p className="mt-4 text-gray-600">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
                   vero aliquid sint distinctio iure ipsum cupiditate? Quis, odit
                   assumenda? Deleniti quasi inventore, libero reiciendis minima
@@ -33,21 +33,21 @@ export default function Education() {
                 </p>
 
                 {/* <a
-                  class="inline-flex items-center px-8 py-3 mt-8 text-white bg-indigo-600 border border-indigo-600 rounded hover:bg-transparent hover:text-indigo-600 active:text-indigo-500 focus:outline-none focus:ring"
+                  className="inline-flex items-center px-8 py-3 mt-8 text-white bg-indigo-600 border border-indigo-600 rounded hover:bg-transparent hover:text-indigo-600 active:text-indigo-500 focus:outline-none focus:ring"
                   href="/get-started"
                 >
-                  <span class="text-sm font-medium"> Get Started </span>
+                  <span className="text-sm font-medium"> Get Started </span>
 
                   <svg
-                    class="w-5 h-5 ml-3"
+                    className="w-5 h-5 ml-3"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       stroke-width="2"
                       d="M17 8l4 4m0 0l-4 4m4-4H3"
                     />
@@ -55,28 +55,28 @@ export default function Education() {
                 </a> */}
               </div>
 
-              <div class="grid grid-cols-2 gap-4 sm:grid-cols-2">
+              <div className="grid grid-cols-2 gap-4 sm:grid-cols-2">
                 <a
                   href=""
-                  class="relative block p-8 pb-24 border-t-4 border-pink-600 rounded-sm shadow-xl"
+                  className="relative block p-8 pb-24 border-t-4 border-pink-600 rounded-sm shadow-xl"
                 >
-                  <h5 class="text-4xl font-bold">Cut</h5>
-                  <p class="mt-4 text-lg font-medium text-gray-500">
+                  <h5 className="text-4xl font-bold">Cut</h5>
+                  <p className="mt-4 text-lg font-medium text-gray-500">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Repudiandae, provident.
                   </p>
 
-                  <span class="absolute bottom-8 right-8">
+                  <span className="absolute bottom-8 right-8">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="w-10 h-10 text-pink-600"
+                      className="w-10 h-10 text-pink-600"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         stroke-width="2"
                         d="M13 10V3L4 14h7v7l9-11h-7z"
                       />
@@ -86,25 +86,25 @@ export default function Education() {
 
                 <a
                   href=""
-                  class="relative block p-8 pb-24 border-t-4 border-pink-600 rounded-sm shadow-xl"
+                  className="relative block p-8 pb-24 border-t-4 border-pink-600 rounded-sm shadow-xl"
                 >
-                  <h5 class="text-4xl font-bold">Color</h5>
-                  <p class="mt-4 text-lg font-medium text-gray-500">
+                  <h5 className="text-4xl font-bold">Color</h5>
+                  <p className="mt-4 text-lg font-medium text-gray-500">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Repudiandae, provident.
                   </p>
 
-                  <span class="absolute bottom-8 right-8">
+                  <span className="absolute bottom-8 right-8">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="w-10 h-10 text-pink-600"
+                      className="w-10 h-10 text-pink-600"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         stroke-width="2"
                         d="M13 10V3L4 14h7v7l9-11h-7z"
                       />
@@ -114,25 +114,25 @@ export default function Education() {
 
                 <a
                   href=""
-                  class="relative block p-8 pb-24 border-t-4 border-pink-600 rounded-sm shadow-xl"
+                  className="relative block p-8 pb-24 border-t-4 border-pink-600 rounded-sm shadow-xl"
                 >
-                  <h5 class="text-4xl font-bold">Clarity</h5>
-                  <p class="mt-4 text-lg font-medium text-gray-500">
+                  <h5 className="text-4xl font-bold">Clarity</h5>
+                  <p className="mt-4 text-lg font-medium text-gray-500">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Repudiandae, provident.
                   </p>
 
-                  <span class="absolute bottom-8 right-8">
+                  <span className="absolute bottom-8 right-8">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="w-10 h-10 text-pink-600"
+                      className="w-10 h-10 text-pink-600"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         stroke-width="2"
                         d="M13 10V3L4 14h7v7l9-11h-7z"
                       />
@@ -142,25 +142,25 @@ export default function Education() {
 
                 <a
                   href=""
-                  class="relative block p-8 pb-24 border-t-4 border-pink-600 rounded-sm shadow-xl"
+                  className="relative block p-8 pb-24 border-t-4 border-pink-600 rounded-sm shadow-xl"
                 >
-                  <h5 class="text-4xl font-bold">Carat</h5>
-                  <p class="mt-4 text-lg font-medium text-gray-500">
+                  <h5 className="text-4xl font-bold">Carat</h5>
+                  <p className="mt-4 text-lg font-medium text-gray-500">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Repudiandae, provident.
                   </p>
 
-                  <span class="absolute bottom-8 right-8">
+                  <span className="absolute bottom-8 right-8">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="w-10 h-10 text-pink-600"
+                      className="w-10 h-10 text-pink-600"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         stroke-width="2"
                         d="M13 10V3L4 14h7v7l9-11h-7z"
                       />
@@ -168,122 +168,122 @@ export default function Education() {
                   </span>
                 </a>
 
-                <a href="" class="relative block group h-72">
-                  <span class="absolute inset-0 border-2 border-black border-dashed"></span>
+                <a href="" className="relative block group h-72">
+                  <span className="absolute inset-0 border-2 border-black border-dashed"></span>
 
-                  <div class="relative flex items-end h-full transition-transform transform bg-white border-2 border-black group-hover:-translate-x-2 group-hover:-translate-y-2">
-                    <div class="px-8 pb-8 transition-opacity group-hover:opacity-0 group-hover:absolute">
+                  <div className="relative flex items-end h-full transition-transform transform bg-white border-2 border-black group-hover:-translate-x-2 group-hover:-translate-y-2">
+                    <div className="px-8 pb-8 transition-opacity group-hover:opacity-0 group-hover:absolute">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="w-12 h-12"
+                        className="w-12 h-12"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
                       >
                         <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                           stroke-width="2"
                           d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                         />
                       </svg>
 
-                      <h2 class="mt-4 text-2xl font-medium">Cut</h2>
+                      <h2 className="mt-4 text-2xl font-medium">Cut</h2>
                     </div>
 
-                    <div class="absolute p-8 transition-opacity opacity-0 group-hover:opacity-100 group-hover:relative w-full">
-                      <h2 class="mt-4 text-2xl font-medium">Cut</h2>
+                    <div className="absolute p-8 transition-opacity opacity-0 group-hover:opacity-100 group-hover:relative w-full">
+                      <h2 className="mt-4 text-2xl font-medium">Cut</h2>
 
-                      <p class="mt-4">
+                      <p className="mt-4">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Cupiditate, praesentium voluptatem omnis atque culpa
                         repellendus.
                       </p>
 
-                      <p class="mt-8 font-bold">Read more</p>
+                      <p className="mt-8 font-bold">Read more</p>
                     </div>
                   </div>
                 </a>
 
-                <a href="" class="relative block group h-72">
-                  <span class="absolute inset-0 border-2 border-black border-dashed"></span>
+                <a href="" className="relative block group h-72">
+                  <span className="absolute inset-0 border-2 border-black border-dashed"></span>
 
-                  <div class="relative flex items-end h-full transition-transform transform bg-white border-2 border-black group-hover:-translate-x-2 group-hover:-translate-y-2">
-                    <div class="px-8 pb-8 transition-opacity group-hover:opacity-0 group-hover:absolute">
+                  <div className="relative flex items-end h-full transition-transform transform bg-white border-2 border-black group-hover:-translate-x-2 group-hover:-translate-y-2">
+                    <div className="px-8 pb-8 transition-opacity group-hover:opacity-0 group-hover:absolute">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-12 w-12"
+                        className="h-12 w-12"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
                         stroke-width="2"
                       >
                         <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                           d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"
                         />
                       </svg>
 
-                      <h2 class="mt-4 text-2xl font-medium">Color</h2>
+                      <h2 className="mt-4 text-2xl font-medium">Color</h2>
                     </div>
 
-                    <div class="absolute p-8 transition-opacity opacity-0 group-hover:opacity-100 group-hover:relative w-full">
-                      <h2 class="mt-4 text-2xl font-medium">Color</h2>
+                    <div className="absolute p-8 transition-opacity opacity-0 group-hover:opacity-100 group-hover:relative w-full">
+                      <h2 className="mt-4 text-2xl font-medium">Color</h2>
 
-                      <p class="mt-4">
+                      <p className="mt-4">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Cupiditate, praesentium voluptatem omnis atque culpa
                         repellendus.
                       </p>
 
-                      <p class="mt-8 font-bold">Read more</p>
+                      <p className="mt-8 font-bold">Read more</p>
                     </div>
                   </div>
                 </a>
 
-                <a href="" class="relative block group h-72">
-                  <span class="absolute inset-0 border-2 border-black border-dashed"></span>
+                <a href="" className="relative block group h-72">
+                  <span className="absolute inset-0 border-2 border-black border-dashed"></span>
 
-                  <div class="relative flex items-end h-full transition-transform transform bg-white border-2 border-black group-hover:-translate-x-2 group-hover:-translate-y-2">
-                    <div class="px-8 pb-8 transition-opacity group-hover:opacity-0 group-hover:absolute">
+                  <div className="relative flex items-end h-full transition-transform transform bg-white border-2 border-black group-hover:-translate-x-2 group-hover:-translate-y-2">
+                    <div className="px-8 pb-8 transition-opacity group-hover:opacity-0 group-hover:absolute">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-12 w-12"
+                        className="h-12 w-12"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
                         stroke-width="2"
                       >
                         <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                           d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
                         />
                       </svg>
 
-                      <h2 class="mt-4 text-2xl font-medium">Clarity</h2>
+                      <h2 className="mt-4 text-2xl font-medium">Clarity</h2>
                     </div>
 
-                    <div class="absolute p-8 transition-opacity opacity-0 group-hover:opacity-100 group-hover:relative w-full">
-                      <h2 class="mt-4 text-2xl font-medium">Clarity</h2>
+                    <div className="absolute p-8 transition-opacity opacity-0 group-hover:opacity-100 group-hover:relative w-full">
+                      <h2 className="mt-4 text-2xl font-medium">Clarity</h2>
 
-                      <p class="mt-4">
+                      <p className="mt-4">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Cupiditate, praesentium voluptatem omnis atque culpa
                         repellendus.
                       </p>
 
-                      <p class="mt-8 font-bold">Read more</p>
+                      <p className="mt-8 font-bold">Read more</p>
                     </div>
                   </div>
                 </a>
 
-                <a href="" class="relative block group h-72">
-                  <span class="absolute inset-0 border-2 border-black border-dashed"></span>
+                <a href="" className="relative block group h-72">
+                  <span className="absolute inset-0 border-2 border-black border-dashed"></span>
 
-                  <div class="relative flex items-end h-full transition-transform transform bg-white border-2 border-black group-hover:-translate-x-2 group-hover:-translate-y-2">
-                    <div class="px-8 pb-8 transition-opacity group-hover:opacity-0 group-hover:absolute">
+                  <div className="relative flex items-end h-full transition-transform transform bg-white border-2 border-black group-hover:-translate-x-2 group-hover:-translate-y-2">
+                    <div className="px-8 pb-8 transition-opacity group-hover:opacity-0 group-hover:absolute">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="48"
@@ -296,16 +296,16 @@ export default function Education() {
                           points="72 40 184 40 240 104 128 224 16 104 72 40"
                           fill="none"
                           stroke="#000000"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                           stroke-width="24"
                         ></polygon>
                         <polygon
                           points="177.1 104 128 224 78.9 104 128 40 177.1 104"
                           fill="none"
                           stroke="#000000"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                           stroke-width="24"
                         ></polygon>
                         <line
@@ -315,25 +315,25 @@ export default function Education() {
                           y2="104"
                           fill="none"
                           stroke="#000000"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                           stroke-width="24"
                         ></line>
                       </svg>
 
-                      <h2 class="mt-4 text-2xl font-medium">Carat</h2>
+                      <h2 className="mt-4 text-2xl font-medium">Carat</h2>
                     </div>
 
-                    <div class="absolute p-8 transition-opacity opacity-0 group-hover:opacity-100 group-hover:relative w-full">
-                      <h2 class="mt-4 text-2xl font-medium">Carat</h2>
+                    <div className="absolute p-8 transition-opacity opacity-0 group-hover:opacity-100 group-hover:relative w-full">
+                      <h2 className="mt-4 text-2xl font-medium">Carat</h2>
 
-                      <p class="mt-4">
+                      <p className="mt-4">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Cupiditate, praesentium voluptatem omnis atque culpa
                         repellendus.
                       </p>
 
-                      <p class="mt-8 font-bold">Read more</p>
+                      <p className="mt-8 font-bold">Read more</p>
                     </div>
                   </div>
                 </a>
